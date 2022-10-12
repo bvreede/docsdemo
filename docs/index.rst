@@ -11,7 +11,6 @@ Welcome to DocsDemo's documentation!
    :caption: Contents:
 
    extra_info.rst
-   myNotebook.ipynb
 
 
 Indices and tables
