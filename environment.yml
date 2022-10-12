@@ -2,7 +2,11 @@ name: docsdemo
 channels:
   - conda-forge
 dependencies:
+  - pip
   - python>=3.8
   - jupyterlab
   - sphinx
   - nbsphinx
+  - pip:
+    - sphinx-autoapi
+    - sphinx-rtd-theme
