@@ -10,6 +10,7 @@ Welcome to DocsDemo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   extra_info.rst
 
 
 Indices and tables
