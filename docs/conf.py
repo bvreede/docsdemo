@@ -16,11 +16,13 @@ release = '0.0.1'
 
 extensions = [
     "sphinx.ext.napoleon",
-    "autoapi.extension"
+    "autoapi.extension",
+    "nbsphinx",
+    "sphinx.ext.mathjax"
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints']
 
 # -- Use autoapi.extension to run sphinx-apidoc -------
 autoapi_type = 'python'
